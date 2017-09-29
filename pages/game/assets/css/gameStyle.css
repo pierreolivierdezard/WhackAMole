@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+}
+body{
+  background-color: #4c653b;
+  font-family: fantasy;
+  height: 100%;
+  margin: 0;
+  min-width: 1050px;
+}
+canvas{
+  border-radius: 5px;
+  cursor: url('../hammer.png') 10 10, default;
+}
+canvas:active{
+  cursor: url('../hammerDown.png') 10 10, default;
+}
+p{
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 30px;
+  margin: 10px auto;
+  width: 200px;
+}
+p:hover{
+  background-color: black;
+  color: #4c653b;
+}
+#navigation{
+  margin-bottom: 15px;
+}
+#navigation a{
+  color: black;
+  font-size: 50px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+#navigation a:hover{
+  text-decoration: underline;
+}
+.container{
+  margin-top: 20px;
+  text-align: center;
+}

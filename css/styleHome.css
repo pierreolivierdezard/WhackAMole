@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+}
+body{
+  background-color: #4c653b;
+  font-family: fantasy;
+  height: 100%;
+  margin: 0;
+  min-width: 1050px;
+  position: relative;
+}
+#navigation{
+  bottom: 8%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+#navigation a{
+  color: black;
+  font-size: 50px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+#navigation a:hover{
+  text-decoration: underline;
+}
+.holeL1{
+  bottom: 19%;
+  position: absolute;
+  width: 425px;
+  z-index: 0;
+}
+.holeL2{
+  left: 20%;
+  position: absolute;
+  top: 25%;
+  width: 250px;
+  z-index: 0;
+}
+.holeMain{
+  left: 40%;
+  position: absolute;
+  top: 43%;
+  width: 470px;
+  z-index: 0;
+}
+.holeR1{
+  bottom: 16%;
+  position: absolute;
+  right: 0;
+  width: 425px;
+  z-index: 0;
+}
+.holeR2{
+  position: absolute;
+  right: 14%;
+  top: 29%;
+  width: 250px;
+  z-index: 0;
+}
+.mole{
+  animation: jump 5s linear infinite;
+  left: 40%;
+  position: absolute;
+  top: 20%;
+  width: 300px;
+  z-index: 1;
+}
+.title{
+  animation: bigger 0.75s linear infinite alternate;
+  bottom: 5%;
+  font-size: 140px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+@keyframes bigger {
+  from{font-size: 140px;}
+  to{font-size: 145px;}
+}
+@keyframes jump {
+  0%{top: 20%;}
+  10%{top: 5%;}
+  20%{top: 20%; transform: rotate(360deg);}
+  30%{top: 20%; transform: rotate(360deg);}
+  100%{top: 20%; transform: rotate(360deg);}
+}

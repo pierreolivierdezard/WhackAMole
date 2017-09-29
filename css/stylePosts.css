@@ -1,0 +1,146 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #4c653b;
+  font-family: fantasy;
+  height: 100%;
+  margin: 0;
+  min-width: 1050px;
+  text-align: center;
+}
+form input{
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  width: 100%;
+}
+#adminActions{
+  display: flex;
+  margin-bottom: 15px;
+  width: 100%;
+}
+#navigation{
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+  width: 100%;
+}
+#navigation a{
+  color: black;
+  margin-left: 30px;
+  text-decoration: none;
+}
+#navigation a:hover{
+  text-decoration: underline;
+}
+#posts{
+  margin-top: 15px;
+  width: 100%;
+}
+.addForm, .editPick, .deletePick{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px;
+  text-align: left;
+  width: 60%;
+}
+.addForm form{
+  margin: 15px;
+}
+.addForm textarea{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.btn{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: #6c6356;
+  cursor: pointer;
+}
+.error{
+  color: black;
+  font-size: 2em;
+}
+.log{
+  margin: 50px 10px 159px 10px;
+}
+.post{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px auto 10px auto;
+  padding: 15px;
+  text-align: left;
+  width: 80%;
+}
+.post label{
+  border-bottom: 1px solid;
+  display: inline-block;
+  font-size: 1.5em;
+  width: 100%;
+}
+.postMessage{
+  min-height: 50px;
+}
+.showPosts{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px 32px 10px 15px;
+  position: relative;
+  width: 500px;
+}
+.showPosts:after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  top: 17px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333;
+}
+.showPosts:hover{
+  background-color: #6c6356;
+  cursor: pointer;
+}
+.register{
+  margin: 10px;
+}
+.registerForm, .loginForm{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 63px;
+  padding: 15px;
+  text-align: left;
+}
+.title{
+  color: black;
+  margin: 15px 0;
+  width: 100%;
+}
+.userAction{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 10px auto;
+  max-width: 210px;
+  padding: 15px;
+}
+.userAction:hover{
+  color: black;
+}
